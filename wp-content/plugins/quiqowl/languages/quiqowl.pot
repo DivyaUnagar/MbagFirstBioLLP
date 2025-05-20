@@ -1,0 +1,1308 @@
+# Copyright (C) 2024 Untapwp
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: QuiqOwl 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/quiqowl\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-27T07:01:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: quiqowl\n"
+
+#. Plugin Name of the plugin
+#: quiqowl.php
+msgid "QuiqOwl"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: quiqowl.php
+msgid "https://untapwp.com/quiqowl"
+msgstr ""
+
+#. Description of the plugin
+#: quiqowl.php
+msgid "QuiqOwl integrates seamlessly with WooCommerce, offering customizable search options, smart filtering, and advanced indexing to streamline the shopping experience and boost conversions."
+msgstr ""
+
+#. Author of the plugin
+#: quiqowl.php
+msgid "Untapwp"
+msgstr ""
+
+#. Author URI of the plugin
+#: quiqowl.php
+msgid "https://untapwp.com"
+msgstr ""
+
+#: admin/dashboard.php:93
+msgid "Hey "
+msgstr ""
+
+#: admin/dashboard.php:95
+msgid " !"
+msgstr ""
+
+#: admin/dashboard.php:103
+msgid "Gross"
+msgstr ""
+
+#: admin/dashboard.php:129
+msgid "+"
+msgstr ""
+
+#. translators: %s: Growth percentage
+#. translators: %s: Label before text
+#. translators: %s: Label after text
+#. translators: %s: Product Title
+#: admin/dashboard.php:130
+#: admin/functions.php:338
+#: admin/functions.php:352
+#: admin/functions.php:502
+#: admin/functions.php:514
+#: admin/functions.php:532
+#: admin/functions.php:544
+#: admin/functions.php:929
+#: admin/functions.php:949
+#: admin/functions.php:962
+#: admin/functions.php:980
+#: admin/functions.php:992
+msgid "%s"
+msgstr ""
+
+#. translators: %s: Growth percentage
+#: admin/dashboard.php:131
+msgid "%"
+msgstr ""
+
+#: admin/dashboard.php:142
+msgid " Sold"
+msgstr ""
+
+#: admin/dashboard.php:154
+msgid "Latest Keyword Analytics"
+msgstr ""
+
+#: admin/dashboard.php:156
+#: admin/dashboard.php:209
+msgid "View All"
+msgstr ""
+
+#: admin/dashboard.php:164
+#: admin/pages/search-analytics.php:14
+msgid "Search Keyword"
+msgstr ""
+
+#: admin/dashboard.php:165
+#: admin/pages/search-analytics.php:15
+#: admin/pages/search-analytics.php:21
+msgid "Search Count"
+msgstr ""
+
+#: admin/dashboard.php:204
+msgid "Latest Product Analytics"
+msgstr ""
+
+#: admin/dashboard.php:218
+#: admin/pages/product-analytics.php:17
+msgid "Product Name"
+msgstr ""
+
+#: admin/dashboard.php:221
+#: admin/pages/product-analytics.php:20
+#: admin/pages/product-analytics.php:28
+msgid "Views via Plugin"
+msgstr ""
+
+#: admin/dashboard.php:222
+#: admin/pages/product-analytics.php:21
+msgid "Added to Cart Count"
+msgstr ""
+
+#: admin/dashboard.php:302
+msgid "Upgrade to view all data!"
+msgstr ""
+
+#: admin/functions.php:344
+msgid "Sale"
+msgstr ""
+
+#: admin/functions.php:606
+msgid "Sold out!"
+msgstr ""
+
+#: admin/functions.php:631
+msgid "Review"
+msgid_plural "Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/functions.php:642
+#: admin/functions.php:1063
+msgid "View my cart"
+msgstr ""
+
+#: admin/functions.php:1031
+msgid " out of "
+msgstr ""
+
+#: admin/functions.php:1031
+msgid "review"
+msgid_plural "reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/functions.php:1056
+msgid "Cart Updated!"
+msgstr ""
+
+#: admin/functions.php:1060
+msgid "Add to cart"
+msgstr ""
+
+#: admin/pages/product-analytics.php:16
+msgid "#UniqueID"
+msgstr ""
+
+#: admin/pages/product-analytics.php:22
+msgid "Details"
+msgstr ""
+
+#: admin/pages/product-analytics.php:29
+msgid "Table order by Views."
+msgstr ""
+
+#: admin/pages/product-analytics.php:34
+msgid "Add to Cart Count"
+msgstr ""
+
+#: admin/pages/product-analytics.php:35
+msgid "Table order by Added to Cart Count."
+msgstr ""
+
+#: admin/pages/product-analytics.php:93
+msgid "View log"
+msgstr ""
+
+#: admin/pages/product-analytics.php:118
+#: includes/Quiqowl_Admin.php:50
+msgid "Product Analytics"
+msgstr ""
+
+#: admin/pages/search-analytics.php:22
+msgid "Table order by Search Count."
+msgstr ""
+
+#: admin/pages/search-analytics.php:50
+#: includes/Quiqowl_Admin.php:48
+msgid "Search Analytics"
+msgstr ""
+
+#: blocks/product-search/build/render.php:1333
+#: blocks/product-search/build/render.php:1624
+#: blocks/product-search/src/render.php:1333
+#: blocks/product-search/src/render.php:1624
+msgid "Filter by Price"
+msgstr ""
+
+#: blocks/product-search/build/render.php:1372
+#: blocks/product-search/build/render.php:1663
+#: blocks/product-search/src/render.php:1372
+#: blocks/product-search/src/render.php:1663
+msgid "Filter by Tags"
+msgstr ""
+
+#: blocks/product-search/build/render.php:1393
+#: blocks/product-search/build/render.php:1684
+#: blocks/product-search/src/render.php:1393
+#: blocks/product-search/src/render.php:1684
+msgid "Filter by Rating"
+msgstr ""
+
+#: blocks/product-search/build/render.php:1405
+#: blocks/product-search/build/render.php:1408
+#: blocks/product-search/build/render.php:1411
+#: blocks/product-search/build/render.php:1414
+#: blocks/product-search/build/render.php:1696
+#: blocks/product-search/build/render.php:1699
+#: blocks/product-search/build/render.php:1702
+#: blocks/product-search/build/render.php:1705
+#: blocks/product-search/src/render.php:1405
+#: blocks/product-search/src/render.php:1408
+#: blocks/product-search/src/render.php:1411
+#: blocks/product-search/src/render.php:1414
+#: blocks/product-search/src/render.php:1696
+#: blocks/product-search/src/render.php:1699
+#: blocks/product-search/src/render.php:1702
+#: blocks/product-search/src/render.php:1705
+msgid "Above"
+msgstr ""
+
+#: blocks/product-search/build/render.php:1442
+#: blocks/product-search/build/render.php:1733
+#: blocks/product-search/src/render.php:1442
+#: blocks/product-search/src/render.php:1733
+msgid "Filter By "
+msgstr ""
+
+#: includes/Quiqowl_Admin.php:43
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Quiqowl_Admin.php:48
+msgid "Search Analaytics (Pro)"
+msgstr ""
+
+#: includes/Quiqowl_Admin.php:50
+msgid "Product Analaytics (Pro)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:10
+msgid "Thin"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:14
+msgid "Extra Light"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:18
+msgid "Light"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:22
+msgid "Regular"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:26
+msgid "Medium"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:30
+msgid "Semi Bold"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:34
+msgid "Bold"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:38
+msgid "Extra Bold"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/util.js:42
+msgid "Black"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:112
+msgid "General"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:114
+msgid "Enable Search Button"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:128
+msgid "Category Filter"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:150
+#: blocks/product-search/src/edit/components/InspectorControls.js:240
+msgid "Price Filter"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:164
+msgid "Availability Filter"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:178
+#: blocks/product-search/src/edit/components/InspectorControls.js:254
+msgid "Tags Filter"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:192
+#: blocks/product-search/src/edit/components/InspectorControls.js:268
+msgid "Rating Filter"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:206
+#: blocks/product-search/src/edit/components/InspectorControls.js:282
+msgid "Attribute Filter"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:214
+#: blocks/product-search/src/edit/components/InspectorControls.js:296
+msgid "Layout"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:226
+#: blocks/product-search/src/edit/components/InspectorControls.js:308
+#: blocks/product-search/src/edit/components/InspectorControls.js:865
+#: blocks/product-search/src/edit/components/InspectorControls.js:898
+#: blocks/product-search/src/edit/components/InspectorControls.js:4536
+msgid "Default"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:230
+msgid "Full Screen (Pro)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:312
+msgid "Full Screen"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:325
+msgid "Filter Gap"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:338
+msgid "Justification"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:348
+#: blocks/product-search/src/edit/components/InspectorControls.js:482
+#: blocks/product-search/src/edit/components/InspectorControls.js:5769
+msgid "Left"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:354
+msgid "Center"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:360
+#: blocks/product-search/src/edit/components/InspectorControls.js:486
+#: blocks/product-search/src/edit/components/InspectorControls.js:5774
+msgid "Right"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:375
+#: blocks/product-search/src/edit/components/InspectorControls.js:386
+msgid "Enable Ajax Loader"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:405
+msgid "Search Bar Options"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:424
+msgid "Label"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:443
+msgid "Button Variation"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:457
+msgid "Inside"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:461
+msgid "Outside"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:468
+msgid "Button Position"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:495
+msgid "Show on Click"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:520
+msgid "Category Filter Options"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:541
+msgid "Category Label"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:561
+msgid "Price Filter Options"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:581
+msgid "Range"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:591
+msgid "Min"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:595
+msgid "Start"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:631
+msgid "Max"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:635
+msgid "End"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:678
+msgid "Attribute Filter Options"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:755
+msgid "Product Options"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:769
+msgid "Products Per Page"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:788
+msgid "Product Image"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:804
+msgid "Link Product to Image"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:818
+#: blocks/product-search/src/edit/components/InspectorControls.js:978
+msgid "Open Link in New Tab"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:832
+msgid "Sale Badge"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:850
+#: blocks/product-search/src/edit/components/InspectorControls.js:883
+msgid "Sale Content"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:869
+msgid "Amount (PRO)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:873
+msgid "Percentage (PRO)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:902
+msgid "Amount"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:906
+msgid "Percentage"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:914
+msgid "Sale Preceeding Label"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:929
+msgid "Sale Subsequent Label"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:948
+msgid "Product Title"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:964
+msgid "Link Product to Title"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:994
+msgid "Product Price"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1008
+msgid "Product Summary"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1024
+msgid "Summary Excerpt"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1045
+msgid "Product Rating"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1067
+#: blocks/product-search/src/edit/components/InspectorControls.js:1093
+msgid "Cart Button"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1081
+#: blocks/product-search/src/edit/components/InspectorControls.js:1123
+msgid "Quick View"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1108
+msgid "Open Cart in New Tab"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1147
+#: blocks/product-search/src/edit/components/InspectorControls.js:1174
+#: blocks/product-search/src/edit/components/InspectorControls.js:1201
+msgid "Columns"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1229
+msgid "Gap"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1245
+msgid "Content Spacing"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1268
+msgid "Ajax Loader Options"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1288
+msgid "Variation"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1303
+msgid "Button"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1308
+msgid "Scroll"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1316
+msgid "Button Label"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1332
+msgid "Loading Text"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1343
+msgid "Clear the text to enable the spinner."
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1350
+msgid "Content to Load"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1369
+msgid "Content Limit"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1409
+#: blocks/product-search/src/edit/components/InspectorControls.js:2436
+#: blocks/product-search/src/edit/components/InspectorControls.js:3092
+#: blocks/product-search/src/edit/components/InspectorControls.js:3508
+#: blocks/product-search/src/edit/components/InspectorControls.js:4213
+#: blocks/product-search/src/edit/components/InspectorControls.js:5283
+#: blocks/product-search/src/edit/components/InspectorControls.js:6128
+#: blocks/product-search/src/edit/components/InspectorControls.js:6566
+#: blocks/product-search/src/edit/components/InspectorControls.js:6921
+#: blocks/product-search/src/edit/components/InspectorControls.js:7349
+#: blocks/product-search/src/edit/components/InspectorControls.js:7444
+#: blocks/product-search/src/edit/components/InspectorControls.js:7543
+#: blocks/product-search/src/edit/components/InspectorControls.js:8125
+msgid "Color"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1424
+#: blocks/product-search/src/edit/components/InspectorControls.js:1445
+#: blocks/product-search/src/edit/components/InspectorControls.js:2439
+#: blocks/product-search/src/edit/components/InspectorControls.js:3095
+#: blocks/product-search/src/edit/components/InspectorControls.js:5286
+#: blocks/product-search/src/edit/components/InspectorControls.js:6131
+#: blocks/product-search/src/edit/components/InspectorControls.js:6569
+#: blocks/product-search/src/edit/components/InspectorControls.js:6924
+#: blocks/product-search/src/edit/components/InspectorControls.js:8128
+msgid "Text"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1467
+msgid "Dimensions"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1515
+#: blocks/product-search/src/edit/components/InspectorControls.js:1571
+#: blocks/product-search/src/edit/components/InspectorControls.js:1603
+#: blocks/product-search/src/edit/components/InspectorControls.js:1635
+#: blocks/product-search/src/edit/components/InspectorControls.js:1882
+#: blocks/product-search/src/edit/components/InspectorControls.js:1915
+#: blocks/product-search/src/edit/components/InspectorControls.js:1948
+#: blocks/product-search/src/edit/components/InspectorControls.js:2664
+#: blocks/product-search/src/edit/components/InspectorControls.js:2697
+#: blocks/product-search/src/edit/components/InspectorControls.js:2730
+#: blocks/product-search/src/edit/components/InspectorControls.js:3820
+#: blocks/product-search/src/edit/components/InspectorControls.js:3859
+#: blocks/product-search/src/edit/components/InspectorControls.js:3898
+#: blocks/product-search/src/edit/components/InspectorControls.js:4382
+#: blocks/product-search/src/edit/components/InspectorControls.js:4420
+#: blocks/product-search/src/edit/components/InspectorControls.js:4456
+#: blocks/product-search/src/edit/components/InspectorControls.js:5613
+#: blocks/product-search/src/edit/components/InspectorControls.js:5646
+#: blocks/product-search/src/edit/components/InspectorControls.js:5679
+#: blocks/product-search/src/edit/components/InspectorControls.js:7695
+#: blocks/product-search/src/edit/components/InspectorControls.js:7724
+#: blocks/product-search/src/edit/components/InspectorControls.js:7753
+msgid "Padding"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1667
+msgid "Margin"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1693
+#: blocks/product-search/src/edit/components/InspectorControls.js:3339
+#: blocks/product-search/src/edit/components/InspectorControls.js:3943
+#: blocks/product-search/src/edit/components/InspectorControls.js:6201
+#: blocks/product-search/src/edit/components/InspectorControls.js:7021
+#: blocks/product-search/src/edit/components/InspectorControls.js:7790
+msgid "Margin Top"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1711
+#: blocks/product-search/src/edit/components/InspectorControls.js:3357
+#: blocks/product-search/src/edit/components/InspectorControls.js:3964
+#: blocks/product-search/src/edit/components/InspectorControls.js:6219
+#: blocks/product-search/src/edit/components/InspectorControls.js:7039
+#: blocks/product-search/src/edit/components/InspectorControls.js:7808
+msgid "Margin Bottom"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1733
+#: blocks/product-search/src/edit/components/InspectorControls.js:1774
+#: blocks/product-search/src/edit/components/InspectorControls.js:1798
+#: blocks/product-search/src/edit/components/InspectorControls.js:1822
+msgid "Min. Width"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1850
+msgid "Category Filter Styles"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1981
+#: blocks/product-search/src/edit/components/InspectorControls.js:2763
+#: blocks/product-search/src/edit/components/InspectorControls.js:3378
+#: blocks/product-search/src/edit/components/InspectorControls.js:3988
+#: blocks/product-search/src/edit/components/InspectorControls.js:4492
+#: blocks/product-search/src/edit/components/InspectorControls.js:5712
+#: blocks/product-search/src/edit/components/InspectorControls.js:7308
+#: blocks/product-search/src/edit/components/InspectorControls.js:7829
+msgid "Border"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:1999
+#: blocks/product-search/src/edit/components/InspectorControls.js:2781
+#: blocks/product-search/src/edit/components/InspectorControls.js:3399
+#: blocks/product-search/src/edit/components/InspectorControls.js:4009
+#: blocks/product-search/src/edit/components/InspectorControls.js:4513
+#: blocks/product-search/src/edit/components/InspectorControls.js:5554
+#: blocks/product-search/src/edit/components/InspectorControls.js:5730
+#: blocks/product-search/src/edit/components/InspectorControls.js:7847
+msgid "Border Radius"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2014
+#: blocks/product-search/src/edit/components/InspectorControls.js:4027
+#: blocks/product-search/src/edit/components/InspectorControls.js:4555
+#: blocks/product-search/src/edit/components/InspectorControls.js:4768
+msgid "Box Shadow"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2033
+#: blocks/product-search/src/edit/components/InspectorControls.js:4049
+#: blocks/product-search/src/edit/components/InspectorControls.js:4581
+#: blocks/product-search/src/edit/components/InspectorControls.js:4796
+msgid "Horizontal"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2055
+#: blocks/product-search/src/edit/components/InspectorControls.js:4076
+#: blocks/product-search/src/edit/components/InspectorControls.js:4610
+#: blocks/product-search/src/edit/components/InspectorControls.js:4825
+msgid "Vertical"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2077
+#: blocks/product-search/src/edit/components/InspectorControls.js:4103
+#: blocks/product-search/src/edit/components/InspectorControls.js:4639
+#: blocks/product-search/src/edit/components/InspectorControls.js:4854
+msgid "Blur"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2099
+#: blocks/product-search/src/edit/components/InspectorControls.js:4128
+#: blocks/product-search/src/edit/components/InspectorControls.js:4667
+#: blocks/product-search/src/edit/components/InspectorControls.js:4883
+msgid "Spread"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2121
+#: blocks/product-search/src/edit/components/InspectorControls.js:4153
+#: blocks/product-search/src/edit/components/InspectorControls.js:4695
+#: blocks/product-search/src/edit/components/InspectorControls.js:4912
+#: blocks/product-search/src/edit/components/InspectorControls.js:5755
+msgid "Position"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2139
+#: blocks/product-search/src/edit/components/InspectorControls.js:4176
+#: blocks/product-search/src/edit/components/InspectorControls.js:4720
+#: blocks/product-search/src/edit/components/InspectorControls.js:4937
+msgid "Inset"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2143
+#: blocks/product-search/src/edit/components/InspectorControls.js:4180
+#: blocks/product-search/src/edit/components/InspectorControls.js:4724
+#: blocks/product-search/src/edit/components/InspectorControls.js:4941
+msgid "Outline"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2181
+#: blocks/product-search/src/edit/components/InspectorControls.js:2205
+#: blocks/product-search/src/edit/components/InspectorControls.js:2229
+#: blocks/product-search/src/edit/components/InspectorControls.js:2815
+#: blocks/product-search/src/edit/components/InspectorControls.js:2848
+#: blocks/product-search/src/edit/components/InspectorControls.js:2880
+#: blocks/product-search/src/edit/components/InspectorControls.js:4992
+#: blocks/product-search/src/edit/components/InspectorControls.js:5020
+#: blocks/product-search/src/edit/components/InspectorControls.js:5048
+#: blocks/product-search/src/edit/components/InspectorControls.js:5873
+#: blocks/product-search/src/edit/components/InspectorControls.js:5897
+#: blocks/product-search/src/edit/components/InspectorControls.js:5921
+#: blocks/product-search/src/edit/components/InspectorControls.js:6272
+#: blocks/product-search/src/edit/components/InspectorControls.js:6301
+#: blocks/product-search/src/edit/components/InspectorControls.js:6330
+#: blocks/product-search/src/edit/components/InspectorControls.js:6627
+#: blocks/product-search/src/edit/components/InspectorControls.js:6656
+#: blocks/product-search/src/edit/components/InspectorControls.js:6685
+#: blocks/product-search/src/edit/components/InspectorControls.js:7872
+#: blocks/product-search/src/edit/components/InspectorControls.js:7896
+#: blocks/product-search/src/edit/components/InspectorControls.js:7920
+msgid "Font Size"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2260
+#: blocks/product-search/src/edit/components/InspectorControls.js:5083
+#: blocks/product-search/src/edit/components/InspectorControls.js:5952
+#: blocks/product-search/src/edit/components/InspectorControls.js:6366
+#: blocks/product-search/src/edit/components/InspectorControls.js:6721
+#: blocks/product-search/src/edit/components/InspectorControls.js:7951
+msgid "Family"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2282
+#: blocks/product-search/src/edit/components/InspectorControls.js:2940
+#: blocks/product-search/src/edit/components/InspectorControls.js:5111
+#: blocks/product-search/src/edit/components/InspectorControls.js:5974
+#: blocks/product-search/src/edit/components/InspectorControls.js:6393
+#: blocks/product-search/src/edit/components/InspectorControls.js:6748
+#: blocks/product-search/src/edit/components/InspectorControls.js:7973
+msgid "Decoration"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2299
+#: blocks/product-search/src/edit/components/InspectorControls.js:2364
+#: blocks/product-search/src/edit/components/InspectorControls.js:2957
+#: blocks/product-search/src/edit/components/InspectorControls.js:3022
+#: blocks/product-search/src/edit/components/InspectorControls.js:5131
+#: blocks/product-search/src/edit/components/InspectorControls.js:5205
+#: blocks/product-search/src/edit/components/InspectorControls.js:5991
+#: blocks/product-search/src/edit/components/InspectorControls.js:6056
+#: blocks/product-search/src/edit/components/InspectorControls.js:6414
+#: blocks/product-search/src/edit/components/InspectorControls.js:6488
+#: blocks/product-search/src/edit/components/InspectorControls.js:6769
+#: blocks/product-search/src/edit/components/InspectorControls.js:6843
+#: blocks/product-search/src/edit/components/InspectorControls.js:7990
+#: blocks/product-search/src/edit/components/InspectorControls.js:8055
+msgid "None"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2304
+#: blocks/product-search/src/edit/components/InspectorControls.js:2962
+#: blocks/product-search/src/edit/components/InspectorControls.js:5136
+#: blocks/product-search/src/edit/components/InspectorControls.js:5996
+#: blocks/product-search/src/edit/components/InspectorControls.js:6419
+#: blocks/product-search/src/edit/components/InspectorControls.js:6774
+#: blocks/product-search/src/edit/components/InspectorControls.js:7995
+msgid "Underline"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2309
+#: blocks/product-search/src/edit/components/InspectorControls.js:2967
+#: blocks/product-search/src/edit/components/InspectorControls.js:5141
+#: blocks/product-search/src/edit/components/InspectorControls.js:6001
+#: blocks/product-search/src/edit/components/InspectorControls.js:6424
+#: blocks/product-search/src/edit/components/InspectorControls.js:6779
+#: blocks/product-search/src/edit/components/InspectorControls.js:8000
+msgid "Strikethrough"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2325
+#: blocks/product-search/src/edit/components/InspectorControls.js:2983
+#: blocks/product-search/src/edit/components/InspectorControls.js:5157
+#: blocks/product-search/src/edit/components/InspectorControls.js:6017
+#: blocks/product-search/src/edit/components/InspectorControls.js:6440
+#: blocks/product-search/src/edit/components/InspectorControls.js:6795
+#: blocks/product-search/src/edit/components/InspectorControls.js:8016
+msgid "Appearance"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2347
+#: blocks/product-search/src/edit/components/InspectorControls.js:3005
+#: blocks/product-search/src/edit/components/InspectorControls.js:5185
+#: blocks/product-search/src/edit/components/InspectorControls.js:6039
+#: blocks/product-search/src/edit/components/InspectorControls.js:6467
+#: blocks/product-search/src/edit/components/InspectorControls.js:6822
+#: blocks/product-search/src/edit/components/InspectorControls.js:8038
+msgid "Letter Case"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2369
+#: blocks/product-search/src/edit/components/InspectorControls.js:3027
+#: blocks/product-search/src/edit/components/InspectorControls.js:5210
+#: blocks/product-search/src/edit/components/InspectorControls.js:6061
+#: blocks/product-search/src/edit/components/InspectorControls.js:6493
+#: blocks/product-search/src/edit/components/InspectorControls.js:6848
+#: blocks/product-search/src/edit/components/InspectorControls.js:8060
+msgid "Uppercase"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2374
+#: blocks/product-search/src/edit/components/InspectorControls.js:3032
+#: blocks/product-search/src/edit/components/InspectorControls.js:5215
+#: blocks/product-search/src/edit/components/InspectorControls.js:6066
+#: blocks/product-search/src/edit/components/InspectorControls.js:6498
+#: blocks/product-search/src/edit/components/InspectorControls.js:6853
+#: blocks/product-search/src/edit/components/InspectorControls.js:8065
+msgid "Lowercase"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2379
+#: blocks/product-search/src/edit/components/InspectorControls.js:3037
+#: blocks/product-search/src/edit/components/InspectorControls.js:5220
+#: blocks/product-search/src/edit/components/InspectorControls.js:6071
+#: blocks/product-search/src/edit/components/InspectorControls.js:6503
+#: blocks/product-search/src/edit/components/InspectorControls.js:6858
+#: blocks/product-search/src/edit/components/InspectorControls.js:8070
+msgid "Capitalize"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2395
+#: blocks/product-search/src/edit/components/InspectorControls.js:3053
+#: blocks/product-search/src/edit/components/InspectorControls.js:5236
+#: blocks/product-search/src/edit/components/InspectorControls.js:6087
+#: blocks/product-search/src/edit/components/InspectorControls.js:6519
+#: blocks/product-search/src/edit/components/InspectorControls.js:6874
+#: blocks/product-search/src/edit/components/InspectorControls.js:8086
+msgid "Line Height"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2413
+#: blocks/product-search/src/edit/components/InspectorControls.js:3071
+#: blocks/product-search/src/edit/components/InspectorControls.js:5257
+#: blocks/product-search/src/edit/components/InspectorControls.js:6105
+#: blocks/product-search/src/edit/components/InspectorControls.js:6541
+#: blocks/product-search/src/edit/components/InspectorControls.js:6896
+#: blocks/product-search/src/edit/components/InspectorControls.js:8104
+msgid "Letter Spacing"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2454
+#: blocks/product-search/src/edit/components/InspectorControls.js:3125
+#: blocks/product-search/src/edit/components/InspectorControls.js:3541
+#: blocks/product-search/src/edit/components/InspectorControls.js:4216
+#: blocks/product-search/src/edit/components/InspectorControls.js:5304
+#: blocks/product-search/src/edit/components/InspectorControls.js:6146
+#: blocks/product-search/src/edit/components/InspectorControls.js:7383
+#: blocks/product-search/src/edit/components/InspectorControls.js:7480
+#: blocks/product-search/src/edit/components/InspectorControls.js:8188
+msgid "Background"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2478
+msgid "Search Bar Styles"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2515
+#: blocks/product-search/src/edit/components/InspectorControls.js:2564
+#: blocks/product-search/src/edit/components/InspectorControls.js:2613
+#: blocks/product-search/src/edit/components/InspectorControls.js:3637
+#: blocks/product-search/src/edit/components/InspectorControls.js:3698
+#: blocks/product-search/src/edit/components/InspectorControls.js:3758
+#: blocks/product-search/src/edit/components/InspectorControls.js:4295
+#: blocks/product-search/src/edit/components/InspectorControls.js:4319
+#: blocks/product-search/src/edit/components/InspectorControls.js:4343
+#: blocks/product-search/src/edit/components/InspectorControls.js:5420
+#: blocks/product-search/src/edit/components/InspectorControls.js:5467
+#: blocks/product-search/src/edit/components/InspectorControls.js:5514
+#: blocks/product-search/src/edit/components/InspectorControls.js:7623
+#: blocks/product-search/src/edit/components/InspectorControls.js:7644
+#: blocks/product-search/src/edit/components/InspectorControls.js:7665
+msgid "Width"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2533
+#: blocks/product-search/src/edit/components/InspectorControls.js:2582
+#: blocks/product-search/src/edit/components/InspectorControls.js:2631
+#: blocks/product-search/src/edit/components/InspectorControls.js:3662
+#: blocks/product-search/src/edit/components/InspectorControls.js:3723
+#: blocks/product-search/src/edit/components/InspectorControls.js:3783
+#: blocks/product-search/src/edit/components/InspectorControls.js:5438
+#: blocks/product-search/src/edit/components/InspectorControls.js:5485
+#: blocks/product-search/src/edit/components/InspectorControls.js:5532
+msgid "Height"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:2918
+msgid "Font Family"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3110
+msgid "Text (Focus)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3140
+msgid "Border (Focus)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3163
+msgid "Search Button Styles"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3198
+#: blocks/product-search/src/edit/components/InspectorControls.js:3245
+#: blocks/product-search/src/edit/components/InspectorControls.js:3292
+#: blocks/product-search/src/edit/components/InspectorControls.js:7075
+#: blocks/product-search/src/edit/components/InspectorControls.js:7124
+#: blocks/product-search/src/edit/components/InspectorControls.js:7173
+msgid "Box Width"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3216
+#: blocks/product-search/src/edit/components/InspectorControls.js:3263
+#: blocks/product-search/src/edit/components/InspectorControls.js:3310
+#: blocks/product-search/src/edit/components/InspectorControls.js:7093
+#: blocks/product-search/src/edit/components/InspectorControls.js:7142
+#: blocks/product-search/src/edit/components/InspectorControls.js:7191
+msgid "Box Height"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3438
+#: blocks/product-search/src/edit/components/InspectorControls.js:3462
+#: blocks/product-search/src/edit/components/InspectorControls.js:3486
+#: blocks/product-search/src/edit/components/InspectorControls.js:7223
+#: blocks/product-search/src/edit/components/InspectorControls.js:7246
+#: blocks/product-search/src/edit/components/InspectorControls.js:7269
+msgid "Icon Size"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3511
+#: blocks/product-search/src/edit/components/InspectorControls.js:7352
+#: blocks/product-search/src/edit/components/InspectorControls.js:7447
+msgid "Icon"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3526
+#: blocks/product-search/src/edit/components/InspectorControls.js:7367
+#: blocks/product-search/src/edit/components/InspectorControls.js:7463
+msgid "Icon (Hover)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3556
+#: blocks/product-search/src/edit/components/InspectorControls.js:5322
+#: blocks/product-search/src/edit/components/InspectorControls.js:7398
+#: blocks/product-search/src/edit/components/InspectorControls.js:7496
+#: blocks/product-search/src/edit/components/InspectorControls.js:8203
+msgid "Background (Hover)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3571
+#: blocks/product-search/src/edit/components/InspectorControls.js:5340
+#: blocks/product-search/src/edit/components/InspectorControls.js:7417
+#: blocks/product-search/src/edit/components/InspectorControls.js:7516
+#: blocks/product-search/src/edit/components/InspectorControls.js:8218
+msgid "Border (Hover)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3595
+msgid "Wrapper Styles"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:3615
+msgid "Container"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:4234
+#: blocks/product-search/src/edit/components/InspectorControls.js:8158
+msgid "Spinner (Primary)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:4254
+#: blocks/product-search/src/edit/components/InspectorControls.js:8173
+msgid "Spinner (Secondary)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:4280
+msgid "Filter Box"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:4367
+msgid "Product Box"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:4540
+msgid "Hover"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:5369
+msgid "Product Image Styles"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:5390
+msgid "Hover Effect"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:5582
+msgid "Sale Badge Styles"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:5788
+msgid "Vertical Step"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:5807
+#: blocks/product-search/src/edit/components/InspectorControls.js:5827
+msgid "Horizontal Step"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:5848
+msgid "Rotation"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:6174
+msgid "Product Title Styles"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:6243
+msgid "Title"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:6247
+msgid "Price"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:6586
+#: blocks/product-search/src/edit/components/InspectorControls.js:8143
+msgid "Text (Hover)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:6941
+msgid "Text (Active)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:6959
+msgid "Text (Inactive)"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:6994
+msgid "Util Icon Styles"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:7329
+msgid "Cart"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:7333
+msgid "Eye"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:7337
+msgid "Star"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:7546
+msgid "Primary"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:7562
+msgid "Secondary"
+msgstr ""
+
+#: blocks/product-search/build/index.js:1
+#: blocks/product-search/src/edit/components/InspectorControls.js:7593
+msgid "Ajax Loader Styles"
+msgstr ""
+
+#: blocks/product-search/build/block.json
+#: blocks/product-search/src/block.json
+msgctxt "block title"
+msgid "Product Search"
+msgstr ""
+
+#: blocks/product-search/build/block.json
+#: blocks/product-search/src/block.json
+msgctxt "block description"
+msgid "Supercharge your WooCommerce store with lightning-fast AJAX search, delivering real-time results as you type. Enhance user experience with instant, accurate product suggestions, making it easier than ever for customers to find exactly what they need."
+msgstr ""
+
+#: blocks/product-search/build/block.json
+#: blocks/product-search/src/block.json
+msgctxt "block keyword"
+msgid "product"
+msgstr ""
+
+#: blocks/product-search/build/block.json
+#: blocks/product-search/src/block.json
+msgctxt "block keyword"
+msgid "search"
+msgstr ""

@@ -1,0 +1,31 @@
+.cozy-block-styles__div-separator {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.has-light-border-top {
+  border-top: 1px solid #e0e0e0;
+}
+
+.has-light-border-bottom {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cozy-box-control {
+  position: relative;
+}
+.cozy-box-control .components-base-control__label {
+  margin-bottom: 0;
+  position: absolute;
+}
+.cozy-box-control .components-flex.components-h-stack {
+  align-items: flex-start;
+}
+
+.cozy-border-box-control > label {
+  padding-bottom: 10px;
+}
+.cozy-border-box-control .components-button.is-small.has-icon {
+  transform: translateY(-32px);
+}

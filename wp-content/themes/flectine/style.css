@@ -1,0 +1,700 @@
+/*
+Theme Name: Flectine
+Author: Themes Daddy
+Author URI: https://themesdaddy.com/
+Theme URI: https://themesdaddy.com/themes/flectine-free/
+Description: Lightning Fast Speed & Responsive Theme. Flectine is a responsive and fully customizable theme to create any kind of websites. The advanced admin panel will enable you to customize it without any technical knowledge. This theme is lightweight, it will enable you to create almost any type of website such a blog, portfolio, acting and shooting industry, total trendy news, newspaper, mega magazine, fashion, dark themes, petcare, animals wildlife, wooden architecture, plumbing contractor, painting estate, interior design, rooms furniture, home decoration, green floral nature, construction, corporate, multiple agency, business promotion, dark variation, industries, Beauty & spa salons, photography, gym, fitness, health, medical, startups, business agencies, law firms, travel, NGO, charity, yoga, kids education, training institute, university portal, restaurant, meta shop, quick magazines, mutual fund, finance, accounting, consulting ,travel agency website. Theme is fully compatible with popular WordPress plugins like Elementor Page Builder, Slider, Carousal, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, Gutenberg, Block-Enabled, WooCommerce, WPML, Yoast SEO, Shortcode, Jetpack, Contact Form 7, Mailchimp for WordPress, bbPress, Demo Importer, WPForms and more. Your WordPress website will never be let down with this theme. View the demo of Flectine Pro https://demo.themesdaddy.com/flectine-pro/
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+Version: 1.0.21
+Tested up to: 6.8
+Requires PHP: 5.4
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GNU General Public License v2 or later
+Text Domain: flectine
+Slug: flectine
+Template: flixita
+*/
+
+
+:root {
+    --bs-primary: #1a8314;
+    --bs-primary-dark:#043601;
+    --bs-primary-light: #d7e7d6;
+    --bs-primary-shadow:rgb(0 123 255 / 0.5);
+    --bs-secondary:#0d0d23;
+    --bs-secondary-dark: #060707; 
+}
+
+.flectine-theme .above-header .widget-left {
+	padding-left: 390px;
+}
+
+.flectine-theme .above-header .widget-right .widget-contact a:hover,
+.flectine-theme .above-header .widget-right .widget-contact a:focus {
+    color: var(--bs-white);
+}
+
+.flectine-theme .main-header .header-search-toggle:hover, 
+.flectine-theme .main-header .header-search-toggle:focus {
+    color: var(--bs-primary);
+    background-color: var(--bs-white);
+}
+
+.flectine-theme .above-header {
+    border-bottom: none;
+}
+
+.flectine-theme .above-header:before,
+.flectine-theme .above-header:after {
+	display:none;
+}
+
+.flectine-theme .navbar-area {
+    justify-content: space-between;
+}
+
+.flectine-theme .main-navigation .logo-box {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 360px;
+    height: 145px;
+    margin-top: -46px;
+    padding-left: 60px;
+    padding-right: 100px;
+    margin-right: 60px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+	z-index: 0;
+}
+
+.flectine-theme .main-navigation.is-sticky-menu .logo-box {
+    height: 101px;
+    margin-top: 0;
+}
+
+.flectine-theme .main-navigation .logo-box:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bs-white);
+    clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%);
+    content: "";
+    z-index: -1;
+}
+
+
+.flectine-theme .main-navbar .main-menu > li.menu-item:not(.focus):not(.active):not(:hover) > a:not(:focus):not(:hover) {
+    color: var(--bs-white);
+}
+
+
+.flectine-theme .main-navbar {
+    padding-left: 3rem;
+}
+
+.flectine-theme .menu-right-list .button-area {
+    position: relative;
+    background-color: var(--bs-white);
+    width: 250px;
+    height: 100%;
+    padding: 19px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+.flectine-theme .info-section .info-inner {
+    position: relative;
+    padding: 30px 30px 35px;
+    background-color: var(--bs-white);
+    text-align: center;
+    box-shadow: rgb(2 2 2 / 6%) 0 0 50px;
+	overflow: hidden;
+}
+
+.flectine-theme .info-section .feature-bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flectine-theme .info-section .feature-bg-img:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    background-color: var(--bs-white);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    content: "";
+}
+
+.flectine-theme .info-section .feature-bg-img:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    height: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 40, 56, 0.68)), color-stop(35%, rgba(24, 40, 56, 0.68)), to(var(--bs-primary)));
+    background: linear-gradient(to bottom, rgba(24, 40, 56, 0.68) 0%, rgba(24, 40, 56, 0.68) 35%, var(--bs-primary) 100%);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    content: "";
+}
+
+.flectine-theme .info-section .feature-bg-shape {
+    position: absolute;
+    top: 0;
+    left: 14px;
+	width: 264px;
+    height: 273px;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.flectine-theme .info-section .info-icon {
+    position: relative;
+    width: 78px;
+    height: 78px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+    font-size: 42px;
+    color: var(--bs-primary);
+    background-color: #ebf1f5;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.flectine-theme .info-section .info-icon:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 21px;
+    width: 0;
+    height: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 12px solid #ebf1f5;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.flectine-theme .info-section .feature-box-title a {
+    position: relative;
+    color: var(--bs-secondary);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.flectine-theme .info-section .read-more {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: var(--bs-white);
+    background-color: var(--bs-primary);
+	text-decoration: none;
+}
+
+.flectine-theme .info-section .info-inner:hover .read-more {
+    border: 1px solid var(--bs-white);
+}
+
+.flectine-theme .info-section .info-inner:hover .feature-bg-img:before {
+    height: 0;
+}
+
+.flectine-theme .info-section .info-inner:hover .feature-bg-img:after {
+    height:100%;
+}
+
+.flectine-theme .info-section .info-inner .fbox-content {
+    color: var(--bs-secondary);
+    position: relative;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.flectine-theme .info-section .info-inner:hover .feature-box-title a,
+.flectine-theme .info-section .info-inner:hover .fbox-content{
+	color: var(--bs-white);
+}
+
+.flectine-theme .info-section .info-inner:hover .info-icon {
+    color: var(--bs-white);
+    background-color: var(--bs-primary);
+    -webkit-transform: scale(-1) rotate(180deg);
+    transform: scale(-1) rotate(180deg);
+}
+
+.flectine-theme .info-section .info-inner:hover .info-icon:after {
+     border-top-color: var(--bs-primary);
+}
+
+
+.flectine-theme .info-section .info-inner:hover .feature-bg-shape {
+   opacity:0;
+}
+
+.flectine-theme .service-section .bg-shape1 {
+    display: none;
+}
+
+.flectine-theme .service-section .service-inner {
+    border-radius: 5px;
+    border: 1px solid rgba(96, 94, 94, 0.12);
+}
+
+.flectine-theme .service-section .image-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.flectine-theme .service-section .image-box:before {
+    bottom: 0;
+    content: "";
+    background-color: #0f0f0f66;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.flectine-theme .service-section .image-box:after {
+    background: var(--bs-primary);
+    bottom: 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.flectine-theme .service-section .image-box img {
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.flectine-theme .service-section .service-content {
+    padding: 60px 30px 30px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.flectine-theme .service-section .service-content .icon {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
+    color: var(--bs-primary);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 38px;
+    height: 90px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -55px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 90px;
+    z-index: 1;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.flectine-theme .service-section .service-content .icon:after {
+    background: var(--bs-primary);
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+    transition: all 0.5s cubic-bezier(0.62, 0.21, 0.45, 1.52);
+}
+.flectine-theme .service-section .service-inner:hover .icon{
+	color: var(--bs-white);
+}
+.flectine-theme .service-section .service-inner:hover .icon:after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.flectine-theme .service-section .service-inner:hover .image-box:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.flectine-theme .service-section .service-inner:hover .image-box:after {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.flectine-theme .service-section .service-inner .service-title a::before {
+    display:none;
+}
+
+.flectine-theme .service-section .service-inner .service-title {
+    margin-bottom: 1rem !important;
+    text-align: center;
+}
+
+.flectine-theme .main-content h4 {
+    border: none;
+	padding: 5px 15px;
+}
+
+.flectine-theme .main-content h1 .primary {
+    color: var(--bs-white);
+    -webkit-text-fill-color: var(--bs-primary);
+    -webkit-text-stroke-width: 1px;
+}
+
+.flectine-theme .main-content h4:before {
+   display:none;
+}
+
+.flectine-theme .main-content h4:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bs-primary);
+    transform: skewX(-20deg);
+    z-index: -1;
+}
+
+.flectine-theme .btn {
+    border-radius: 0 !important;
+}
+
+.btn-style-three .btn.btn-primary {
+    transition: 0s;
+}
+
+.btn-style-three .btn:before, .btn-style-three .btn:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  width: 0%;
+  background-color: var(--bs-white);
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.btn-style-three .btn:before {
+  left: 0;
+  border-radius: 0 20px 20px 0;
+}
+
+.btn-style-three .btn:after {
+  right: 0;
+  border-radius: 20px 0 0 20px;
+}
+
+.btn-style-three .btn:hover,
+.btn-style-three .btn:focus {
+  color: var(--bs-secondary);
+  box-shadow: none;
+}
+
+.btn-style-three .btn:hover::before, .btn-style-three .btn:hover:after,
+.btn-style-three .btn:focus::before, .btn-style-three .btn:focus:after {
+  width: 51%;
+  border-radius: 0;
+}
+
+.flectine-theme .flixita-call-action-section .call-content h2 {
+    color: var(--bs-white);
+}
+
+.marquee-section {
+    position: relative;
+    padding: 12px 0;
+    margin-top: 6.75rem;
+}
+
+.marquee-section:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 90px;
+    width: 100%;
+    background-color: var(--bs-primary);
+    pointer-events: none;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.marquee-box {
+    position: relative;
+    --duration: 30s;
+    --gap: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    gap: var(--gap);
+    background: var(--bs-white);
+    padding: 30px 0;
+    -webkit-transform: rotate(-1.33deg);
+    transform: rotate(-1.33deg);
+    -webkit-box-shadow: 0 10px 60px 0 rgba(171, 171, 171, .25);
+    box-shadow: 0 10px 60px 0 rgba(171, 171, 171, .25);
+}
+
+.marquee-box .marquee-group {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: var(--gap);
+    min-width: 100%;
+    -webkit-animation: scroll var(--duration) linear infinite;
+    animation: scroll var(--duration) linear infinite;
+}
+
+.marquee-box .icon {
+    margin-right: 20px;
+    font-size: 35px;
+	color: var(--bs-primary);
+}
+
+.marquee-box .text {
+    position: relative;
+    color: var(--bs-secondary);
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1;
+    padding-right: 105px;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-100% - var(--gap)));
+        transform: translateX(calc(-100% - var(--gap)))
+    }
+}
+
+@media only screen and (max-width: 1699px) {
+    .flectine-theme .above-header .widget-left  {
+        padding-left: 330px;
+    }
+	.flectine-theme .main-navigation .logo-box {
+		padding-left: 0;
+		padding-right: 0;
+		min-width: 300px;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		margin-right: 30px;
+	  }
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    .flectine-theme .above-header .widget-left  {
+        padding-left: 230px;
+    }
+	.flectine-theme .main-navigation .logo-box {
+        min-width: 230px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+  .flectine-theme .main-navigation .logo-box {
+    min-width: 220px;
+  }
+}
+
+@media (min-width: 992px) {
+	.flectine-theme .main-header .container {
+		padding: 0;
+		max-width: 100%;
+	}
+	.flectine-theme .above-header .widget-right {
+        padding-right: 32px;
+    }
+	.flectine-theme .above-header {
+		background: var(--bs-primary);
+	}
+	.flectine-theme .main-navigation-area,
+	.flectine-theme .is-sticky-menu {
+		background-color: var(--bs-secondary);
+	}
+}
+
+@media (max-width: 991px) {
+	.flectine-theme .above-header .widget-left  {
+        padding-left: 0;
+    }
+}
+
+.wp-block-latest-comments a {
+    text-decoration: none;
+}
+
+.wp-block-latest-comments {
+    padding: 0;
+}
+
+.wp-block-latest-comments.has-background {
+    padding: 10px;
+}
+
+a.wp-block-latest-posts__post-title:hover, 
+a.wp-block-latest-posts__post-title:focus {
+    color: var(--bs-primary);
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list.has-background li {
+    padding: 1rem;
+}
+
+.wp-block-latest-comments {
+    padding: 0;
+}
+
+.wp-block-categories li a {
+    color: var(--bs-secondary);
+}
+
+.wp-block-categories li a:hover, 
+.wp-block-categories li a:focus {
+    color: var(--bs-primary);
+}
+
+.footer-main .wp-block-calendar td {
+    color: var(--bs-secondary);
+}
+
+.wp-block-loginout.has-background {
+    padding: 1rem;
+}
+
+.wp-block-loginout a {
+    text-decoration: none;
+}
+
+.post-details-outer .post-title-head {
+	margin-top: 2.5rem;
+}
+
+.wp-block-post-author.has-background {
+    padding: 1rem;
+}
+
+.wp-block-image figcaption {
+    text-align: center;
+}
+
+.wp-block-post-author img {
+    border-radius: 100%;
+}
+
+.wp-block-site-title a {
+    text-decoration: none;
+}
+
+.wp-block-page-list {
+	padding: 0;
+}

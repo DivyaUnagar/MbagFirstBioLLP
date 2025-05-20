@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cozy-block/button",
+  "title": "Cozy Button",
+  "description": "Enhance user interaction with our stylish and versatile 'Button' block, designed to seamlessly integrate into your site for a polished appearance.",
+  "category": "cozy-block",
+  "textdomain": "cozy-addons",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "blockClientId": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": [
+    "cozy-block--button"
+  ],
+  "editorStyle": "cozy-block--button--editor-style",
+  "style": [
+    "cozy-block--button--style"
+  ],
+  "render": "file:./render.php"
+}
