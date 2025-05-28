@@ -1,4 +1,5 @@
 <?php
+
 if (! defined('GROCEFYCART_VERSION')) {
 	// Replace the version number of the theme on each release.
 	define('GROCEFYCART_VERSION', wp_get_theme()->get('Version'));
@@ -108,3 +109,51 @@ function grocefycart_add_woocommerce_support()
 	add_theme_support('woocommerce');
 }
 add_action('after_setup_theme', 'grocefycart_add_woocommerce_support');
+
+function enqueue_swiper_assets() {
+    wp_enqueue_style('swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+    wp_enqueue_script('swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', array(), null, true);
+}
+add_action('wp_enqueue_scripts', 'enqueue_swiper_assets');
+
+function swiper_slider_shortcode($atts, $content = null) {
+    ob_start(); ?>
+    
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <style>
+        .swiper {
+            width: 100%;
+            height: 300px;
+        }
+        .swiper-slide {
+            background: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      });
+    </script>
+
+    <?php
+    return ob_get_clean();
+}
+add_shortcode('swiper_slider', 'swiper_slider_shortcode');
